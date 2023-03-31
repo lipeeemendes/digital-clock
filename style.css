@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -25,8 +28,22 @@ section{
 }
 
 section div{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0.25rem;
   width: 100px;
   height: 100px;
   background: black;
   color: white;
+}
+
+section div span{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.time{
+  font-size: 1rem;
 }
